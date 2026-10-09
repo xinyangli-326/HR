@@ -1,0 +1,5 @@
+# 统一换行，保证 .bat / .ps1 在任何机器上检出都是 CRLF（否则 cmd 解析会出错）
+* text=auto
+*.bat text eol=crlf
+*.ps1 text eol=crlf
+*.png binary
